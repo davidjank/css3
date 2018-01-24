@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #63ffec;
+    font-family: 'Supermercado One', cursive;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 50px auto 0;
+    padding: 20px 30px;
+    background-color: #e5fff8;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container .left-block {
+    width: 48%;
+    padding: 30px 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+}
+
+.container .left-block:hover{
+    width: 48%;
+    padding: 30px 50px;
+    background-color: #ff8c85;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+}
+
+.container .right-block{
+     width: 48%;
+     padding: 30px 50px;
+     background-color: aliceblue;
+     border-radius: 10px;
+     text-align: justify;
+     display: inline-block;
+     margin-left: 20px;
+     float: left;
+ }
+
+.container .right-block:hover{
+    width: 48%;
+    padding: 30px 50px;
+    background-color: #ffb0cf;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 20px;
+    float: left;
+}
+
+.container .right-block:hover p{
+    background-color: #ad4dff;
+}
+
+.left-block:hover + .right-block p{
+    color: #fffc00
+}
+.clear{
+    clear: both;
+}
+
+p{
+    margin-top: 15px;
+}
